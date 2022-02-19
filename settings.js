@@ -13,24 +13,24 @@ global.APIKeys = {
 
 // setting 
 global.autoread = true // auto read pesan / message
-global.autorecording = true //status auto merekam ( auto record )
+global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = false //status auto mengetik (auto typing)
-global.available = false //status online (online)
+global.available = true //status online (online)
 
 // Other
-global.botname = "ErozeBot-Mdོ"
-global.ownername= "Eroze"
-global.myweb ="https://api-alphabot.herokuapp.com/"
-global.youtube = "https://youtube.com/c/ZeeoneOfc"
-global.github = "https://zeeoneofc.github.io/"
-global.ownernomer = "62895326739863"
-global.ownernomerr = "62895326739863"
+global.botname = "Yui-Chan"
+global.ownername= "LeonGanz"
+global.myweb ="https://bl4ck-lion.github.io/index.php"
+global.youtube = "https://youtube.com/c/LeonGanz"
+global.github = "https://bl4ck-lion.github.io/"
+global.ownernomer = "6285608625102"
+global.ownernomerr = "+6285608625102"
 global.thumbnail = "./image/lol.jpg"
 global.donasi = "./image/donasi.jpg"
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["62895326739863","62895326739863","62895326739863"] //ganti agar fitur owner bisa di gunakan
-global.packname = '© ErozeBotz-Mdོ' //sticker wm
-global.author = 'Di Buat Oleh Eroze' //sticker wm
+global.owner = ["6285608625102","6285608625102","6285608625102"] //ganti agar fitur owner bisa di gunakan
+global.packname = 'YuiCantik♡' //sticker wm
+global.author = 'LeonGanteng' //sticker wm
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
