@@ -1,0 +1,96 @@
+{
+  "users": {
+    "62858931537759@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "6288238487765@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "62895326739863@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "6285813351296@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "6283106193160@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "6285748921967@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    },
+    "6287867858848@s.whatsapp.net": {
+      "afkTime": -1,
+      "banned": false,
+      "afkReason": ""
+    }
+  },
+  "chats": {
+    "62858931537759@s.whatsapp.net": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "120363039657716194@g.us": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "62895326739863@s.whatsapp.net": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "120363039021802553@g.us": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "120363023263879635@g.us": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "120363022308123094@g.us": {
+      "setWelcome": "",
+      "setLeave": ""
+    },
+    "120363023324215300@g.us": {
+      "setWelcome": "",
+      "setLeave": ""
+    }
+  },
+  "database": {},
+  "game": {
+    "math": [],
+    "family100": [],
+    "tebakgambar": [],
+    "tebakkata": [],
+    "tebakbendera": [],
+    "siapaaku": [],
+    "tebakkalimat": [],
+    "caklontong": [],
+    "susunkata": [],
+    "tekateki": [],
+    "tebakkabupaten": [],
+    "tebakkimia": [],
+    "tebaklirik": [],
+    "tebaktebakan": []
+  },
+  "absen": {},
+  "cmd": {},
+  "settings": {
+    "62858931537759@s.whatsapp.net": {
+      "available": false,
+      "composing": false,
+      "recording": false,
+      "autorespond": false
+    }
+  }
+}
