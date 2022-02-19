@@ -87,7 +87,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Yui-Chan, bot ini adalah Beta Multi-Device Whatsapp. 
+saya Yui-Chan, Saya adalah Bot Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
 lapor owner agar segera di perbaiki 🙏      
 `
@@ -527,7 +527,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
-├ X-FaaBot
+├ LeonGanz
 ├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
@@ -566,9 +566,9 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan Yui di pegang oleh Putri dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Yui-Chan
 😖🙏
 `
 }
