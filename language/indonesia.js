@@ -321,6 +321,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Textpro Menu 」
+├ ${prefix}*ktpmaker* text
 ├ ${prefix}halloween2 text|text2
 ├ ${prefix}horror text|text2
 ├ ${prefix}game8bit text|text2
@@ -523,7 +524,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ My God
 ├ My Parents
 ├ Fatih A.
-├ Ferdi
+├ Ferdiz AFK
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
