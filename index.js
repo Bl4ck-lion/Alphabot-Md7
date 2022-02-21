@@ -788,30 +788,32 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 reply('Sukses Ganti Ke Mode Public')
             }
             break
-            case 'ktpmaker':
-                    if(!q) return reply(`*Pengunaan :*\n${command} Nik| Provinsi| Kabupaten |Nama |TempatTanggalLahir |JenisKel |Alamat |RtRw |KelDesa |Kecamatan |Agama |Status |Pekerjaan |Region |Berlaku |golongan darah |LinkGambar\n\n${command} 6287877173955 |Provinsi Jawa Barat |Kabupaten Bekasi |Arda Store |Bekasi |Laki-Laki |Bintara Jaya |02/05 |Karang Indah |Bekasi Barat |Islam |Jomblo |Ngoding |Indonesia |2021-2080 |b |https://i.waifu.pics/VIJYb_Z.png\n\n\n*「 INFO IMAGE 」*\nUntuk Gambar Profil KTP\nUpload Dari Web Berikut Ini\n\nhttps://i.waifu.pics\nhttps://c.top4top.io\n\nCONTOH HASIL NYA\nhttps://i.waifu.pics/VIJYb_Z.png\nhttps://k.top4top.io/p_2208264hn0.jpg`)
-                    get_args = args.join(" ").split("|")
-                    nik = get_args[0]
-                    prov = get_args[1]
-                    kabu = get_args[2]
-                    name = get_args[3]
-                    ttl = get_args[4]
-                    jk = get_args[5]
-                    jl = get_args[6]
-                    rtrw = get_args[7]
-                    lurah = get_args[8]
-                    camat = get_args[9]
-                    agama = get_args[10]
-                    nikah = get_args[11]
-                    kerja = get_args[12]
-                    warga = get_args[13]
-                    until = get_args[14]
-                    gd = get_args[15]
-                    img = get_args[16]
+            case 'ktpmaker':
+//if(!q) return m.reply(`*Pengunaan :*\n${command} Nik| Provinsi| Kabupaten |Nama |TempatTanggalLahir |JenisKel |Alamat |RtRw |KelDesa |Kecamatan |Agama |Status |Pekerjaan |Region |Berlaku |golongan darah |LinkGambar\n\n${command} 6287877173955 |Provinsi Jawa Barat |Kabupaten Bekasi |Arda Store |Bekasi |Laki-Laki |Bintara Jaya |02/05 |Karang Indah |Bekasi Barat |Islam |Jomblo |Ngoding |Indonesia |2021-2080 |b |https://i.waifu.pics/VIJYb_Z.png\n\n\n*「 INFO IMAGE 」*\nUntuk Gambar Profil KTP\nUpload Dari Web Berikut Ini\n\nhttps://i.waifu.pics\nhttps://c.top4top.io\n\nCONTOH HASIL NYA\nhttps://i.waifu.pics/VIJYb_Z.png\nhttps://k.top4top.io/p_2208264hn0.jpg`)
+if (!q) return m.reply(`Example: 388950299|LeonGanz|mars, 99-99-9999|Laki-Laki|O|Jakarta|02/02|smewew|Land Of Down|atheis|Jomblo|Nolep|Indonesia|Kiamat|Mars|Thanos|https://i.waifu.pics/VIJYb_Z.png`)
+input = args.join(" ")
+var nik = input.split('|')[0] //9999999
+var nama = input.split('|')[1] //CAF
+var ttl = input.split('|')[2] //MARS, 99-99-9999
+var jk = input.split('|')[3] //LAKI-LAKI / PEREMPUAN
+var goldarah = input.split('|')[4] //GOLONGAN DARAH
+var almt = input.split('|')[5] //ALAMAT
+var rtw = input.split('|')[6] //RTRW
+var lurah = input.split('|')[7] //LURAH
+var camat = input.split('|')[8] //CAMAT
+var agm = input.split('|')[9] //AGAMA
+var status = input.split('|')[10] //STATUS
+var kerja = input.split('|')[11] //KERJA
+var negara = input.split('|')[12] //NEGARA
+var berlaku = input.split('|')[13] //BERLAKU
+var provinsi = input.split('|')[14] //PROVINSI
+var kabupaten = input.split('|')[15] //KABUPATEN
+var _ppktp = input.split('|')[16]
+_url = `https://ferdiz-afk.my.id/api/Fmake/ktpmaker?nik=${nik}&nama=${nama}&ttl=${ttl}&jk=${jk}&gd=${goldarah}&almt=${almt}&rtw=${rtw}&kel=${lurah}&kc=${camat}&agm=${agm}&st=${status}&krj=${kerja}&ngr=${negara}&blk=${berlaku}&prv=${provinsi}&kab=${kabupaten}&picturl=${_ppktp}`
+console.log(_url)
                     reply(`*Mohon tunggu sebentar kak, sedang proses .....*`)
-                    console.log(bikin)
-                    ardaktp = await getBuffer(`https://ferdiz-afk.my.id/api/Fmake/ktpmaker?nik=${nik}&nama=${name}&ttl=${ttl}&jk=${jk}&gd=${gd}&almt=${jl}&rtw=${rtrw}&kel=${lurah}&kc=${camat}&agm=${agama}&st=${nikah}&krj=${kerja}&ngr=${warga}&blk=${until}&prv=${prov}&kab=${kabu}&picturl=${img}`)
-                    await alpha.sendMessage(from, { image: ardaktp, caption: '🤗Done, Oke Desu~' }, { quoted: m})
+                    await alpha.sendMessage(m.chat, {image: {url: _url}, caption: `🤗Done, Oke Desu~`}, { quoted:m})
+           await sleep(5000)
                     break
             case 'self': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
