@@ -809,12 +809,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     gd = get_args[15]
                     img = get_args[16]
                     reply(`*Mohon tunggu sebentar kak, sedang proses .....*`)
-                    bikin = (`https://ferdiz-afk.my.id/api/Fmake/ktpmaker?nik=${nik}&nama=${name}&ttl=${ttl}&jk=${jk}&gd=${gd}&almt=${jl}&rtw=${rtrw}&kel=${lurah}&kc=${camat}&agm=${agama}&st=${nikah}&krj=${kerja}&ngr=${warga}&blk=${until}&prv=${prov}&kab=${kabu}&picturl=${img}`)
                     console.log(bikin)
-                    ardaktp = await getBuffer(bikin)
-                    await alpha.sendMessage(m.chat, {image: {url: ardaktp , caption: `🤗Done, Oke Desu~}, { quoted:m})
-           await sleep(5000)
-                    break;
+                    ardaktp = await getBuffer(`https://ferdiz-afk.my.id/api/Fmake/ktpmaker?nik=${nik}&nama=${name}&ttl=${ttl}&jk=${jk}&gd=${gd}&almt=${jl}&rtw=${rtrw}&kel=${lurah}&kc=${camat}&agm=${agama}&st=${nikah}&krj=${kerja}&ngr=${warga}&blk=${until}&prv=${prov}&kab=${kabu}&picturl=${img}`)
+                    await alpha.sendMessage(from, { image: ardaktp, caption: '🤗Done, Oke Desu~' }, { quoted: m})
+                    break
             case 'self': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
                 alpha.public = false
